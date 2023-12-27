@@ -12,6 +12,7 @@ import Contact from "./pages/Contact"
 import Cart from "./pages/Cart"
 import Favourites from "./pages/Favourites"
 import Account from "./pages/Account"
+import AcRent from "./pages/AcRent"
 
 function App() {
 
@@ -23,6 +24,7 @@ function App() {
             <Route path="/maruacstore" element={<Home />} />
             <Route path="/services" element={<Services />} />
             <Route path="/products" element={<Products />} />
+            <Route path="/ac-rent" element={<AcRent />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<SingleBlog />} />
             <Route path="/about-us" element={<AboutUs />} />

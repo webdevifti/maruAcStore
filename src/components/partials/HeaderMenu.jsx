@@ -38,15 +38,7 @@ const HeaderMenu = () => {
                                 </li>
                             </ul>
                             <div className="d-flex">
-                                <li>
-                                    <NavLink to='/my-account'>
-                                        <span className="icon-overlay-label">
-                                            <FontAwesomeIcon icon={faUser} />
-                                            <span>2</span>
-                                        </span>
-                                        Account
-                                    </NavLink>
-                                </li>
+                               
                                 <li>
                                     <NavLink to='/my-favourites'>
                                         <span className="icon-overlay-label">
@@ -63,6 +55,15 @@ const HeaderMenu = () => {
                                             <span>9+</span>
                                             Cart
                                         </span>
+                                    </NavLink>
+                                </li>
+                                <li>
+                                    <NavLink to='/my-account'>
+                                        <span className="icon-overlay-label">
+                                            <FontAwesomeIcon icon={faUser} />
+                                          
+                                        </span>
+                                        Account
                                     </NavLink>
                                 </li>
                                 <li><NavLink to='/signup' >Sign Up</NavLink></li>

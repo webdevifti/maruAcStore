@@ -2,14 +2,14 @@ import React from 'react'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 
-const Cart = () => {
+const AcRent = () => {
   return (
     <>
-      <Header />
-      <div>Cart</div>
-      <Footer />
+        <Header />
+        <div>AC Rent</div>
+        <Footer />
     </>
   )
 }
 
-export default Cart
+export default AcRent

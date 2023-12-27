@@ -48,11 +48,11 @@
 
     li a{
         color: $white;
-        padding: 11px 25px;
+        padding: 11px 20px;
         font-size: 12px;
         &.active{
             background-color: $naviBlue;
-            padding: 11px 25px;
+            padding: 11px 20px;
             font-weight: 500;
         }
         &:hover{
@@ -60,7 +60,7 @@
         }
         .icon-overlay-label{
             position: relative;
-            
+
             svg{
                 margin-right: 5px;
             }
@@ -71,12 +71,14 @@
                 color: $white;
                 bottom: 10px;
                 left: 6px;
-                height: 22px;
-                width: 22px;
+                height: 18px;
+                width: 18px;
                 border-radius: 50%;
-                text-align: center;
                 font-size: 12px;
                 font-weight: 500;
+                display: flex;
+                align-items: center;
+                justify-content: center;
             }
         }
     }
