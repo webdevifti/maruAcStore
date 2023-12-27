@@ -1,5 +1,5 @@
 import React from 'react'
-import '../assets/styles/signup.scss'
+import '../assets/styles/pages/signup.scss'
 import Header from '../components/Header'
 import Footer from '../components/Footer'
 

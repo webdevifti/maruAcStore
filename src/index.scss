@@ -2,6 +2,7 @@
 
 @import './assets/styles/partials/variables';
 
+
 body{
     font-family: $primaryFontFamily;
     background-color: $white;
@@ -9,6 +10,13 @@ body{
     padding: 0px;
     margin: 0px;
 }
-ul a.active{
-    color: red;
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+ul{
+    padding: 0px;
+    margin: 0px;
 }
