@@ -48,15 +48,36 @@
 
     li a{
         color: $white;
-        padding: 8px 25px;
-
+        padding: 11px 25px;
+        font-size: 12px;
         &.active{
             background-color: $naviBlue;
-            padding: 8px 25px;
+            padding: 11px 25px;
             font-weight: 500;
         }
         &:hover{
             background-color: $naviBlue;
+        }
+        .icon-overlay-label{
+            position: relative;
+            
+            svg{
+                margin-right: 5px;
+            }
+           
+            span{
+                position: absolute;
+                background-color: $naviBlue;
+                color: $white;
+                bottom: 10px;
+                left: 6px;
+                height: 22px;
+                width: 22px;
+                border-radius: 50%;
+                text-align: center;
+                font-size: 12px;
+                font-weight: 500;
+            }
         }
     }
 
