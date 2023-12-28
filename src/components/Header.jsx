@@ -5,11 +5,10 @@ import '../assets/styles/components/header.scss';
 
 const Header = () => {
   return (
-    <div>
-      <div className="header">
-       <HeaderTop />
-       <HeaderMenu />
-      </div>
+
+    <div className="header">
+      <HeaderTop />
+      <HeaderMenu />
     </div>
   )
 }

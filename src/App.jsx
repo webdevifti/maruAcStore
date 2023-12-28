@@ -18,7 +18,7 @@ function App() {
 
   return (
     <>
-      <section className="app-wrapper">
+      <div className="app-wrapper">
         <BrowserRouter>
           <Routes>
             <Route path="/maruacstore" element={<Home />} />
@@ -37,7 +37,7 @@ function App() {
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </BrowserRouter>
-      </section>
+      </div>
     </>
   )
 }
