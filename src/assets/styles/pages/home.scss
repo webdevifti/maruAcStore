@@ -37,4 +37,11 @@
         color: $black;
         font-weight: 600;
     }
+    &:hover{
+        color: $white;
+        background-color: $blue;
+    }
+    &:hover a{
+        color: $white;
+    }
 }
