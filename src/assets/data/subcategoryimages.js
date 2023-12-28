@@ -1,5 +1,5 @@
-import subcategoryImg1 from '../assets/images/subcategory-banner.png'
-import subcategoryImg3 from '../assets/images/subcategory-banner3.png'
+import subcategoryImg1 from '../../assets/images/subcategory-banner.png'
+import subcategoryImg3 from '../../assets/images/subcategory-banner3.png'
 
 const subCategoryBannerImages = [
     {

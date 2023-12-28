@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import subCategoryBannerImages from '../assets/data'
+import subCategoryBannerImages from '../assets/data/subcategoryimages'
 
 const HomeSubcategoryBanner = () => {
     return (
