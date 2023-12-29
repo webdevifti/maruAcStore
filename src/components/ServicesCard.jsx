@@ -5,10 +5,11 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faLongArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 const ServicesCard = () => {
+    const limit = 4
   return (
-        services.map((v,i) => {
+        services.slice(0,limit).map((v,i) => {
             return (
-                <div className='col-lg-3'>
+                <div className='col-lg-3' key={i}>
                     <div className='service-card'>
                     <img src={v.img} alt="" />
                     <h5>{v.title}</h5>

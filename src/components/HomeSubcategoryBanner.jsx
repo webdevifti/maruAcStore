@@ -3,13 +3,14 @@ import { Link } from 'react-router-dom'
 import subCategoryBannerImages from '../assets/data/subcategoryimages'
 
 const HomeSubcategoryBanner = () => {
+    const limit = 3
     return (
         <section id='subcategoryBannerImages'>
             <div className="subcategory-banner">
                 <div className="container">
                     <div className="row">
                         {
-                            subCategoryBannerImages.map((value, index) => {
+                            subCategoryBannerImages.slice(0,limit).map((value, index) => {
                                 return (
                                     <div className="col-lg-4" key={value.id}>
                                         <Link to="">
