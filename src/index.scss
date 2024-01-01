@@ -44,3 +44,15 @@ section{
     padding: 1px 10px;
     font-size: 12px;
 }
+.home-shop-section-header{
+    background-color: $productBg;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    padding: 5px 12px;
+
+    h5{
+        font-weight: 700;
+        color: $naviBlue;
+        margin: 0px;
+    }
+}

@@ -48,19 +48,8 @@
         color: $white;
     }
 }
-.home-best-offer-products{
-    .home-shop-section-header{
-        background-color: $productBg;
-        margin-bottom: 20px;
-        border-radius: 5px;
-        padding: 5px 12px;
 
-        h5{
-            font-weight: 700;
-            color: $naviBlue;
-            margin: 0px;
-        }
-    }
+ 
     .best-offer-product-card{
         box-shadow: 1px 1px 2px 0px rgba(0,0,0,0.05);
         transition: all 0.5s;
@@ -185,4 +174,12 @@
             }
         }
     }
-}
+    .home-aircondition-products,
+    .home-acspareparts-products{
+        .star_icon{
+            color: $blue;
+        }
+        .star_icon_{
+            color: $gray;
+        }
+    }
