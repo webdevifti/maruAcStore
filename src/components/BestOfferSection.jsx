@@ -1,12 +1,18 @@
 import React from 'react'
 import BestOfferProductCard from './BestOfferProductCard'
+import { Link } from 'react-router-dom'
 
 const BestOfferSection = () => {
     return (
         <div className="home-best-offer-products">
             <div className="container">
                 <div className="row">
-                    <h3>Best Offer Products</h3>
+                    <div className='d-flex align-items-center justify-content-between home-shop-section-header'>
+                        <h5>Best Offer Products</h5>
+                        <div>
+                            <Link to="" className='view-all-link'>View all</Link>
+                        </div>
+                    </div>
                 </div>
 
                 <div className="row">

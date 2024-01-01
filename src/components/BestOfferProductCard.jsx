@@ -2,6 +2,7 @@ import React from 'react'
 import bestofferproducts from '../assets/data/bestofferproducts'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faStar } from '@fortawesome/free-solid-svg-icons'
+import { Link } from 'react-router-dom'
 
 const BestOfferProductCard = () => {
 
@@ -10,13 +11,15 @@ const BestOfferProductCard = () => {
             {
                 bestofferproducts.map((item, i) => {
                     return (
-                        <div className="col-lg-4" key={item.id}>
+                        <div className="col-lg-4 p-0" key={item.id}>
                             <div className="best-offer-product-card">
                                 <div className="row">
                                     <div className="col-lg-5">
                                         <div className='img-area'>
                                             <div className='product-img'>
-                                                <img src={item.product_img} alt={item.product_name} />
+                                                <Link to={item.product_slug}>
+                                                    <img src={item.product_img} alt={item.product_name} />
+                                                </Link>
                                             </div>
                                             <div className='discount-label'>
                                                 <span>{item.discount_percentage}%</span>
@@ -27,7 +30,10 @@ const BestOfferProductCard = () => {
                                     <div className="col-lg-7">
                                         <div className='product-info-area'>
                                             <div className='product-info'>
-                                                <h6>{item.product_name}</h6>
+                                                <Link to={item.product_slug}>
+
+                                                    <h6>{item.product_name}</h6>
+                                                </Link>
                                                 <div>
                                                     <span className='price'>TK. {item.price}</span>
                                                     <span className='selling_price'><del>TK. {item.selling_price}</del></span>
