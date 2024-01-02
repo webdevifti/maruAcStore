@@ -7,6 +7,7 @@ import HomeSubcategoryBanner from '../components/HomeSubcategoryBanner'
 import HomeService from '../components/HomeService'
 import HomeShop from '../components/HomeShop'
 import HomeClient from '../components/HomeClient'
+import HomeTopBrand from '../components/HomeTopBrand'
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
       <HomeService />
       <HomeShop />
       <HomeClient />
+      <HomeTopBrand />
       <Footer />
     </div>
   )
