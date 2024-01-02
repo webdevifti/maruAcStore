@@ -8,6 +8,7 @@ import HomeService from '../components/HomeService'
 import HomeShop from '../components/HomeShop'
 import HomeClient from '../components/HomeClient'
 import HomeTopBrand from '../components/HomeTopBrand'
+import HomeTestimonial from '../components/HomeTestimonial'
 
 
 const Home = () => {
@@ -19,6 +20,7 @@ const Home = () => {
       <HomeService />
       <HomeShop />
       <HomeClient />
+      <HomeTestimonial />
       <HomeTopBrand />
       <Footer />
     </div>
