@@ -56,3 +56,25 @@ section{
         margin: 0px;
     }
 }
+
+.link-wrap{
+    width: 100%;
+    text-align: center;
+    .outline-link{
+        border: 1px solid $blue;
+        border-radius: 5px;
+        background-color: $white;
+        color: $blue;
+        padding: 6px 30px;
+        font-size: 13px;
+        font-weight: 500;
+        display: inline-block;
+        text-align: center;
+        transition: all ease-in-out 0.2s;
+
+        &:hover{
+            background-color: $blue;
+            color: $white;
+        }
+    }
+}
