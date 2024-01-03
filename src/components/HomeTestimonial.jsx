@@ -6,8 +6,8 @@ import TestimonialCard from './TestimonialCard'
 
 
 const HomeTestimonial = () => {
-  return (
-    <section className='home-testimonial-section'>
+    return (
+        <section className='home-testimonial-section'>
             <div className='section-header'>
                 <h3>Our Customers Say</h3>
                 <p>AC SERVICE always focused on clients satisfaction. Client satisfaction is our main motive. We don’t consider our services. So our clients are always happy with our services. They give us some feedback about our company.</p>
@@ -24,7 +24,7 @@ const HomeTestimonial = () => {
 
             </div>
         </section>
-  )
+    )
 }
 
 export default HomeTestimonial

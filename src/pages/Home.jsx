@@ -13,6 +13,7 @@ import HomePricingList from '../components/HomePricingList'
 import HomeBlog from '../components/HomeBlog'
 import HomeCoreService from '../components/HomeCoreService'
 import HomeProjectAtGlanceCount from '../components/HomeProjectAtGlanceCount'
+import RecentProject from '../components/RecentProject'
 
 
 const Home = () => {
@@ -26,6 +27,7 @@ const Home = () => {
       <HomeClient />
       <HomeCoreService />
       <HomeProjectAtGlanceCount />
+      <RecentProject />
       <HomeTestimonial />
       <HomePricingList />
       <HomeTopBrand />
