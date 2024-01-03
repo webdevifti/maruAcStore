@@ -11,6 +11,7 @@ import HomeTopBrand from '../components/HomeTopBrand'
 import HomeTestimonial from '../components/HomeTestimonial'
 import HomePricingList from '../components/HomePricingList'
 import HomeBlog from '../components/HomeBlog'
+import HomeCoreService from '../components/HomeCoreService'
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
       <HomeService />
       <HomeShop />
       <HomeClient />
+      <HomeCoreService />
       <HomeTestimonial />
       <HomePricingList />
       <HomeTopBrand />

@@ -339,3 +339,41 @@
     }
     
 }
+
+.home-core-service{
+    padding: 50px;
+    .core-img{
+        width: 100%;
+        padding: 100px;
+    }
+    .home-core-service-heading{
+        margin-bottom: 10px;
+        h3{
+            font-size: 26px;
+            font-weight: 600;
+            color: $naviBlue;
+        }
+        p{
+            font-size: 12px;
+        }
+    }
+    .core-service-items{
+        display: flex;
+        align-items: center;
+        justify-content: start;
+        margin: 30px 0px;
+        width: 60%;
+        gap: 20px;
+        h3{
+            margin: 0px;
+            font-weight: 600;
+            font-size: 18px;
+            color: $naviBlue;
+        }
+        p{
+            margin: 0px;
+            font-size: 12px;
+            color: $gray;
+        }
+    }
+}
