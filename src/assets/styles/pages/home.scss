@@ -40,12 +40,6 @@
         font-size: 12px;
     }
 
-    a {
-        font-size: 12px;
-        color: $black;
-        font-weight: 600;
-    }
-
     &:hover {
         color: $white;
         background-color: $blue;
@@ -258,7 +252,8 @@
         font-weight: 600;
         margin-bottom: 10px;
     }
-    p{
+
+    p {
         font-size: 12px;
         font-weight: 600;
         color: $naviBlue;
@@ -271,37 +266,76 @@
         font-size: 12px;
         padding: 6px 0px;
         border-bottom: 1px solid $lightGray;
-        .attr{
+
+        .attr {
             color: $gray;
             font-weight: 500;
         }
-        .price{
+
+        .price {
             color: $naviBlue;
             font-weight: 600;
         }
 
-        &:last-child{
+        &:last-child {
             border-bottom: 0px solid transparent;
         }
     }
 
-    a{
+    a {
         font-size: 12px;
         color: $black;
         font-weight: 600;
         margin-top: 30px;
     }
 
-    &:hover li{
+    &:hover li {
         border-bottom: 1px solid $white;
 
-        span{
+        span {
             color: $white;
         }
     }
+
     &:hover {
         color: $white;
         background-color: $blue;
         box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.3);
     }
+}
+
+.blog-card {
+    img {
+        width: 100%;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .category{
+        color: $blue;
+        font-weight: 600;
+        font-size: 12px;
+        margin: 0px;
+    }
+    .views{
+        font-size: 12px;
+        color: $gray;
+
+    }
+    .title{
+        color: $naviBlue;
+        font-size: 16px;
+        font-weight: 600;
+        margin: 5px 0px;
+        text-align: justify;
+        line-height: 23px;
+        &:hover{
+            color: $blue;
+        }
+    }
+    .content{
+        font-size: 12px;
+        color: $gray;
+        text-align: left;
+    }
+    
 }

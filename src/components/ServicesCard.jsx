@@ -14,7 +14,7 @@ const ServicesCard = () => {
                     <img src={v.img} alt="" />
                     <h5>{v.title}</h5>
                     <p>{v.description}</p>
-                    <Link to="">Contact Us <FontAwesomeIcon icon={faLongArrowRight} /></Link>
+                    <Link to="" className='link'>Contact Us <FontAwesomeIcon icon={faLongArrowRight} /></Link>
                     </div>
                 </div>
             )

@@ -24,7 +24,7 @@ const PricingCard = () => {
                                     })
                                 }
 
-                                <Link className='blue-link'>See More</Link>
+                                <Link to="" className='blue-link'>See More</Link>
                             </div>
                         </div>
                     )

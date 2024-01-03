@@ -10,6 +10,7 @@ import HomeClient from '../components/HomeClient'
 import HomeTopBrand from '../components/HomeTopBrand'
 import HomeTestimonial from '../components/HomeTestimonial'
 import HomePricingList from '../components/HomePricingList'
+import HomeBlog from '../components/HomeBlog'
 
 
 const Home = () => {
@@ -24,6 +25,7 @@ const Home = () => {
       <HomeTestimonial />
       <HomePricingList />
       <HomeTopBrand />
+      <HomeBlog />
       <Footer />
     </div>
   )
