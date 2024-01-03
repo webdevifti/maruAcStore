@@ -78,7 +78,22 @@ section{
         }
     }
 }
+.blue-link{
+    background-color: $blue;
+    color: $white !important;
+    border-radius: 5px;
+    padding: 6px 30px;
+    font-size: 13px;
+    font-weight: 500;
+    display: inline-block;
+    text-align: center;
+    transition: all ease-in-out 0.2s;
 
+    &:hover{
+        color: $blue !important;
+        background-color: $white;
+    }
+}
 .star_icon {
     font-size: 14px;
     margin-right: 5px;

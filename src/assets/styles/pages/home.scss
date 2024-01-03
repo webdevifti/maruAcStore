@@ -136,7 +136,7 @@
                 font-weight: 400;
             }
 
-          
+
 
             .avg_rating {
                 font-size: 14px;
@@ -192,10 +192,11 @@
         }
     }
 }
-.home-client-section{
+
+.home-client-section {
     background-color: $whitelightBlue;
 
-    .client-img-wrapper{
+    .client-img-wrapper {
         border: 1px solid $blue;
         border-radius: 5px;
         background-color: $white;
@@ -203,40 +204,104 @@
         height: 80px;
         margin: 20px 0px;
 
-        img{
+        img {
             width: 100%;
             height: 100%;
         }
     }
 }
-.testimonial-card{
+
+.testimonial-card {
     background-color: $productBg;
     border-radius: 5px;
     text-align: center;
     padding: 30px;
     position: relative;
     margin-top: 60px;
-    img{
+
+    img {
         position: absolute;
         top: -65px;
         right: 85px;
     }
 
-    h3{
+    h3 {
         color: $naviBlue;
         font-weight: 600;
         font-size: 16px;
     }
-    .designation{
+
+    .designation {
         font-weight: 600;
         font-size: 10px;
         color: $naviBlue;
         margin: 0px;
     }
-    .content{
+
+    .content {
         font-size: 12px;
         color: $gray;
         margin: 0px;
         padding: 20px 0px
+    }
+}
+
+.pricing-card {
+    padding: 15px;
+    background-color: $whitelightBlue;
+    border-radius: 5px;
+    text-align: center;
+    transition: all 0.5s;
+
+    h3 {
+        font-size: 16px;
+        font-weight: 600;
+        margin-bottom: 10px;
+    }
+    p{
+        font-size: 12px;
+        font-weight: 600;
+        color: $naviBlue;
+    }
+
+    li {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        font-size: 12px;
+        padding: 6px 0px;
+        border-bottom: 1px solid $lightGray;
+        .attr{
+            color: $gray;
+            font-weight: 500;
+        }
+        .price{
+            color: $naviBlue;
+            font-weight: 600;
+        }
+
+        &:last-child{
+            border-bottom: 0px solid transparent;
+        }
+    }
+
+    a{
+        font-size: 12px;
+        color: $black;
+        font-weight: 600;
+        margin-top: 30px;
+    }
+
+    &:hover li{
+        border-bottom: 1px solid $white;
+
+        span{
+            color: $white;
+        }
+    }
+    &:hover {
+        color: $white;
+        background-color: $blue;
+        box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.3);
     }
 }
