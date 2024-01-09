@@ -52,4 +52,46 @@
         }
     }
    
+
+    .category-filter-widgets{
+        .filter-widget{
+          
+            .widget-title{
+                background-color: $blue;
+                color: $white;
+                text-align: center;
+                font-weight: 500;
+                font-size: 17px;
+                border-top-right-radius: 5px;
+                border-top-left-radius: 5px;
+                padding: 15px 10px;
+                margin: 0px;
+            }
+            .widget-body{
+                background-color: $productBg;
+                padding: 5px;
+
+                .accordion{
+                    --bs-accordion-bg: transparent;
+                    --bs-accordion-border-color: none;
+                    // background-color: transparent;
+
+                    .accordion-button{
+                        font-weight: 600;
+                        font-size: 14px;
+                    }
+
+                    .accordion-button:not(.collapsed){
+                        color: $naviBlue;
+                        background-color: transparent;
+                        box-shadow: none;
+                    }
+                    label{
+                        font-size: 14px;
+                        cursor: pointer;
+                    }
+                }
+            }
+        }
+    }
 }

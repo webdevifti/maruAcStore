@@ -10,6 +10,7 @@ import { faArrowRightLong, faBars, faTableCells } from '@fortawesome/free-solid-
 import '../assets/styles/pages/ac-category.scss'
 import ProductCard from '../components/ProductCard';
 import ACBrandSlideList from '../components/ACBrandSlideList';
+import FilterWidgets from '../components/FilterWidgets';
 
 const ProductBrand = () => {
   return (
@@ -20,7 +21,7 @@ const ProductBrand = () => {
         <Breadcrumb />
 
         <div className='row'>
-          <div className='col-lg-2'></div>
+        <FilterWidgets />
           <div className='col-lg-10'>
             <section className='category-banner'>
               <img src={cateBanner} alt="Banner" width="100%" className='img-fluid rounded' />

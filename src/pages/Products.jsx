@@ -6,6 +6,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars, faTableCells } from '@fortawesome/free-solid-svg-icons'
 import ProductCard from '../components/ProductCard'
 import cateBanner from '../assets/images/cate-banner.png'
+import FilterWidgets from '../components/FilterWidgets'
 
 const Products = () => {
   return (
@@ -16,7 +17,7 @@ const Products = () => {
         <Breadcrumb />
 
         <div className='row'>
-          <div className='col-lg-2'></div>
+          <FilterWidgets />
           <div className='col-lg-10'>
             <section className='category-banner'>
               <img src={cateBanner} alt="Banner" width="100%" className='img-fluid rounded' />
