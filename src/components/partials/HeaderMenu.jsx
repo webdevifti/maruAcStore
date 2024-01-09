@@ -21,9 +21,16 @@ const HeaderMenu = () => {
                                 <li className="nav-item">
                                     <NavLink to='/services'>Services</NavLink>
                                 </li>
-                                <li className="nav-item">
-                                    <NavLink to='/products'>Products</NavLink>
-                                </li>
+                                <div className="dropdown-wrapper">
+                                    <li className="nav-item">
+                                        <NavLink to='/products'>Products</NavLink>
+                                    </li>
+                                    <div className="dropdown-content">
+                                        <NavLink to="/product/ac">Air Conditioner</NavLink>
+                                        <NavLink to="/product/ac/ac-type">AC Spare Parts</NavLink>
+                                    </div>
+                                </div>
+
                                 <li className="nav-item">
                                     <NavLink to='/ac-rent'>AC Rent</NavLink>
                                 </li>
@@ -38,7 +45,7 @@ const HeaderMenu = () => {
                                 </li>
                             </ul>
                             <div className="d-flex">
-                               
+
                                 <li>
                                     <NavLink to='/my-favourites'>
                                         <span className="icon-overlay-label">
@@ -61,7 +68,7 @@ const HeaderMenu = () => {
                                     <NavLink to='/my-account'>
                                         <span className="icon-overlay-label">
                                             <FontAwesomeIcon icon={faUser} />
-                                          
+
                                         </span>
                                         Account
                                     </NavLink>
@@ -72,8 +79,8 @@ const HeaderMenu = () => {
                         </div>
                     </div>
                 </nav>
-            </div>
-        </div>
+            </div >
+        </div >
     )
 }
 

@@ -1,26 +1,31 @@
 @import '../partials/variables';
-.header-top{
-    .search-form{
+
+.header-top {
+    .search-form {
         width: 60%;
         margin: 8px auto;
-        .bottom-shadow-input{
+
+        .bottom-shadow-input {
             border: none;
             outline: none;
-            box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.1);
+            box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.1);
             width: 86%;
             padding: 4px 12px;
             border-top-left-radius: 5px;
             border-bottom-left-radius: 5px;
             color: $gray;
             font-family: $primaryFontFamily;
-            &::placeholder{
-                color: rgba(0,0,0,0.4);
+
+            &::placeholder {
+                color: rgba(0, 0, 0, 0.4);
             }
-            &:focus{
-                box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.4) !important;
+
+            &:focus {
+                box-shadow: 0px 2px 4px 1px rgba(0, 0, 0, 0.4) !important;
             }
         }
-        .btn-search{
+
+        .btn-search {
             background-color: $blue;
             border: none;
             outline: none;
@@ -31,41 +36,47 @@
             cursor: pointer;
         }
     }
-    .top-contact{
-        span{
+
+    .top-contact {
+        span {
             color: $gray;
             font-size: 13px;
             padding: 0 3px;
         }
-        svg{
+
+        svg {
             color: $blue;
             font-size: 13px;
         }
     }
 }
-.header-nav{
+
+.header-nav {
     background-color: $blue;
 
-    li a{
+    li a {
         color: $white;
         padding: 11px 20px;
         font-size: 12px;
-        &.active{
+
+        &.active {
             background-color: $naviBlue;
             padding: 11px 20px;
             font-weight: 500;
         }
-        &:hover{
+
+        &:hover {
             background-color: $naviBlue;
         }
-        .icon-overlay-label{
+
+        .icon-overlay-label {
             position: relative;
 
-            svg{
+            svg {
                 margin-right: 5px;
             }
-           
-            span{
+
+            span {
                 position: absolute;
                 background-color: $naviBlue;
                 color: $white;
@@ -80,6 +91,40 @@
                 align-items: center;
                 justify-content: center;
             }
+        }
+    }
+
+    .dropdown-wrapper {
+        position: relative;
+        display: inline-block;
+
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: $white;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+            z-index: 99;
+
+            a {
+                color: $naviBlue;
+                padding: 8px 16px;
+                text-decoration: none;
+                display: block;
+                font-size: 12px;
+                font-weight: 600;
+
+                &:hover {
+                    background-color: $naviBlue;
+                    color: $white;
+                }
+            }
+
+        }
+
+        &:hover .dropdown-content {
+            display: block;
         }
     }
 

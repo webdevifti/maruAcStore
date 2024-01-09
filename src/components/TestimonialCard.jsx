@@ -30,7 +30,7 @@ const TestimonialCard = () => {
             {
                 testimonialData.map((item, i) => {
                     return (
-                        <div className="col-lg-3">
+                        <div className="col-lg-3" key={i}>
                             <div className='testimonial-card'>
                                 <img src={item.img} alt={item.name} />
                                 <div className='mt-5'>
