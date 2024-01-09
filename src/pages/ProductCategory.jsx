@@ -35,8 +35,8 @@ const ProductCategory = () => {
                 </div>
               </div>
 
-              <di v className='mb-4 mt-4 product-section-heading-info'>
-                <div className='d-flex align-items-center justify-content-between'>
+              <di v className='mb-4 mt-2'>
+                <div className='d-flex align-items-center justify-content-between  product-section-heading-info'>
                   <p className='m-0'>343 items found in Air Conditioner</p>
                   <div className='d-flex align-items-center justify-content-between gap-3'>
                     <div className='d-flex align-items-center justify-content-between gap-3'>
