@@ -7,27 +7,33 @@ import img6 from '../images/clients/daikin.png'
 const clientInfo = [
     {
         id: 1,
-        img: img1
+        img: img1,
+        slug: 'panasonic'
     },
     {
         id: 2,
-        img: img5
+        img: img5,
+        slug: 'blue-star'
     },
     {
         id: 3,
-        img: img6
+        img: img6,
+        slug: 'daikin'
     },
     {
         id: 4,
-        img: img2
+        img: img2,
+        slug: 'hotel-zakariya'
     },
     {
         id: 5,
-        img: img3
+        img: img3,
+        slug: 'york'
     },
     {
         id: 6,
-        img: img4
+        img: img4,
+        slug: 'diu'
     }
 
 ];

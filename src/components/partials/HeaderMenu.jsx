@@ -27,7 +27,7 @@ const HeaderMenu = () => {
                                     </li>
                                     <div className="dropdown-content">
                                         <NavLink to="/maruacstore/product/ac">Air Conditioner</NavLink>
-                                        <NavLink to="/maruacstore/product/ac/ac-type">AC Spare Parts</NavLink>
+                                        <NavLink to="/maruacstore/product/ac-parts">AC Spare Parts</NavLink>
                                     </div>
                                 </div>
 

@@ -15,6 +15,7 @@ import Account from "./pages/Account"
 import AcRent from "./pages/AcRent"
 import ProductCategory from './pages/ProductCategory';
 import ProductBrand from './pages/ProductBrand';
+import ProductDetail from "./pages/ProductDetail"
 
 function App() {
 
@@ -25,7 +26,8 @@ function App() {
           <Routes>
             <Route path="/maruacstore" element={<Home />} />
             <Route path="/maruacstore/services" element={<Services />} />
-            <Route path="/maruacstore/products" element={<Products />} />
+            <Route path="/maruacstore/product/:slug/:slugTwo/:slugThree" element={<Products />} />
+            <Route path="/maruacstore/product-detail/:slug" element={<ProductDetail />} />
             <Route path="/maruacstore/product/:slug" element={<ProductCategory />} />
             <Route path="/maruacstore/product/:slug/:slugTwo" element={<ProductBrand />} />
             <Route path="/maruacstore/ac-rent" element={<AcRent />} />

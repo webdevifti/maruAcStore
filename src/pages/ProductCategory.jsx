@@ -6,7 +6,7 @@ import Breadcrumb from '../components/partials/Breadcrumb';
 import cateBanner from '../assets/images/cate-banner.png'
 import { Link } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faArrowRightLong, faBars, faList, faTableCells } from '@fortawesome/free-solid-svg-icons';
+import { faArrowRightLong, faBars, faTableCells } from '@fortawesome/free-solid-svg-icons';
 import ACCategorySlideList from '../components/ACCategorySlideList';
 import '../assets/styles/pages/ac-category.scss'
 import ProductCard from '../components/ProductCard';
