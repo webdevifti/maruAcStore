@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faUser, faShoppingCart, faHeart } from '@fortawesome/free-solid-svg-icons'
+import { faUser, faShoppingCart, faHeart, faChevronDown } from '@fortawesome/free-solid-svg-icons'
 
 const HeaderMenu = () => {
     return (
@@ -19,35 +19,35 @@ const HeaderMenu = () => {
                                     <NavLink to='/maruacstore'>Home</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink to='/services'>Services</NavLink>
+                                    <NavLink to='/maruacstore/services'>Services</NavLink>
                                 </li>
                                 <div className="dropdown-wrapper">
                                     <li className="nav-item">
-                                        <NavLink to='/products'>Products</NavLink>
+                                        <NavLink to='/maruacstore/products'>Products <FontAwesomeIcon icon={faChevronDown} /> </NavLink>
                                     </li>
                                     <div className="dropdown-content">
-                                        <NavLink to="/product/ac">Air Conditioner</NavLink>
-                                        <NavLink to="/product/ac/ac-type">AC Spare Parts</NavLink>
+                                        <NavLink to="/maruacstore/product/ac">Air Conditioner</NavLink>
+                                        <NavLink to="/maruacstore/product/ac/ac-type">AC Spare Parts</NavLink>
                                     </div>
                                 </div>
 
                                 <li className="nav-item">
-                                    <NavLink to='/ac-rent'>AC Rent</NavLink>
+                                    <NavLink to='/maruacstore/ac-rent'>AC Rent</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink to='/blog'>Blog</NavLink>
+                                    <NavLink to='/maruacstore/blog'>Blog</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink to='/about-us'>About Us</NavLink>
+                                    <NavLink to='/maruacstore/about-us'>About Us</NavLink>
                                 </li>
                                 <li className="nav-item">
-                                    <NavLink to='/contact-us'>Contact Us</NavLink>
+                                    <NavLink to='/maruacstore/contact-us'>Contact Us</NavLink>
                                 </li>
                             </ul>
                             <div className="d-flex">
 
                                 <li>
-                                    <NavLink to='/my-favourites'>
+                                    <NavLink to='/maruacstore/my-favourites'>
                                         <span className="icon-overlay-label">
                                             <FontAwesomeIcon icon={faHeart} />
                                             <span>4</span>
@@ -56,7 +56,7 @@ const HeaderMenu = () => {
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to='/cart' >
+                                    <NavLink to='/maruacstore/cart' >
                                         <span className="icon-overlay-label">
                                             <FontAwesomeIcon icon={faShoppingCart} />
                                             <span>9+</span>
@@ -65,7 +65,7 @@ const HeaderMenu = () => {
                                     </NavLink>
                                 </li>
                                 <li>
-                                    <NavLink to='/my-account'>
+                                    <NavLink to='/maruacstore/my-account'>
                                         <span className="icon-overlay-label">
                                             <FontAwesomeIcon icon={faUser} />
 
@@ -73,8 +73,8 @@ const HeaderMenu = () => {
                                         Account
                                     </NavLink>
                                 </li>
-                                <li><NavLink to='/signup' >Sign Up</NavLink></li>
-                                <li><NavLink to='/signin' >Sign In</NavLink></li>
+                                <li><NavLink to='/maruacstore/signup' >Sign Up</NavLink></li>
+                                <li><NavLink to='/maruacstore/signin' >Sign In</NavLink></li>
                             </div>
                         </div>
                     </div>

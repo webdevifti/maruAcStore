@@ -24,20 +24,20 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route path="/maruacstore" element={<Home />} />
-            <Route path="/services" element={<Services />} />
-            <Route path="/products" element={<Products />} />
-            <Route path="/product/:slug" element={<ProductCategory />} />
-            <Route path="/product/:slug/:slugTwo" element={<ProductBrand />} />
-            <Route path="/ac-rent" element={<AcRent />} />
-            <Route path="/blog" element={<Blog />} />
-            <Route path="/blog/:slug" element={<SingleBlog />} />
-            <Route path="/about-us" element={<AboutUs />} />
-            <Route path="/contact-us" element={<Contact />} />
-            <Route path="/my-account" element={<Account />} />
-            <Route path="/my-favourites" element={<Favourites/>} />
-            <Route path="/cart" element={<Cart />} />
-            <Route path="/signup" element={<Signup />} />
-            <Route path="/signin" element={<Signin />} />
+            <Route path="/maruacstore/services" element={<Services />} />
+            <Route path="/maruacstore/products" element={<Products />} />
+            <Route path="/maruacstore/product/:slug" element={<ProductCategory />} />
+            <Route path="/maruacstore/product/:slug/:slugTwo" element={<ProductBrand />} />
+            <Route path="/maruacstore/ac-rent" element={<AcRent />} />
+            <Route path="/maruacstore/blog" element={<Blog />} />
+            <Route path="/maruacstore/blog/:slug" element={<SingleBlog />} />
+            <Route path="/maruacstore/about-us" element={<AboutUs />} />
+            <Route path="/maruacstore/contact-us" element={<Contact />} />
+            <Route path="/maruacstore/my-account" element={<Account />} />
+            <Route path="/maruacstore/my-favourites" element={<Favourites/>} />
+            <Route path="/maruacstore/cart" element={<Cart />} />
+            <Route path="/maruacstore/signup" element={<Signup />} />
+            <Route path="/maruacstore/signin" element={<Signin />} />
             <Route path="*" element={<PageNotFound />} />
           </Routes>
         </BrowserRouter>
