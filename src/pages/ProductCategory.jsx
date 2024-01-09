@@ -9,6 +9,7 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowRightLong, faBars, faList, faTableCells } from '@fortawesome/free-solid-svg-icons';
 import ACCategorySlideList from '../components/ACCategorySlideList';
 import '../assets/styles/pages/ac-category.scss'
+import ProductCard from '../components/ProductCard';
 const ProductCategory = () => {
   return (
     <>
@@ -35,7 +36,7 @@ const ProductCategory = () => {
                 </div>
               </div>
 
-              <di v className='mb-4 mt-2'>
+              <div className='mb-4 mt-2'>
                 <div className='d-flex align-items-center justify-content-between  product-section-heading-info'>
                   <p className='m-0'>343 items found in Air Conditioner</p>
                   <div className='d-flex align-items-center justify-content-between gap-3'>
@@ -57,7 +58,14 @@ const ProductCategory = () => {
                     </div>
                   </div>
                 </div>
-              </di>
+              </div>
+            </div>
+
+            <div className='row p-2 mb-5'>
+              <ProductCard />
+              <div className="link-wrap mt-4">
+                <button className='outline-link'>Load More </button>
+              </div>
             </div>
           </div>
         </div>
