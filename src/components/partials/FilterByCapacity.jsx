@@ -8,7 +8,7 @@ const FilterByCapacity = () => {
                     Capacity
                 </button>
             </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample2">
+            <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionExample2">
                 <div class="accordion-body">
                     <div className='mb-2'>
                         <input type="checkbox" id="acapacity" />

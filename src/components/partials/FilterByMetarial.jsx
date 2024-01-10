@@ -8,7 +8,7 @@ const FilterByMetarial = () => {
                     Metarial
                 </button>
             </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample2">
+            <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionExample2">
                 <div class="accordion-body">
                     <div className='mb-2'>
                         <input type="checkbox" id="armetarial" />

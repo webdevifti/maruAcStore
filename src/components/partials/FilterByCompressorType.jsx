@@ -8,7 +8,7 @@ const FilterByCompressorType = () => {
                     Compressor Type
                 </button>
             </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample2">
+            <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionExample2">
                 <div class="accordion-body">
                     <div className='mb-2'>
                         <input type="checkbox" id="arcom" />

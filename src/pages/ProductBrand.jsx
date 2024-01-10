@@ -29,7 +29,7 @@ const ProductBrand = () => {
             <div>
               <div className='d-flex align-items-center justify-content-between mb-3'>
                 <h3 className='m-0' style={{ fontWeight: 700, fontSize: '16px' }}>AC Brands</h3>
-                <Link to="" className='blue-link'>All Brands <FontAwesomeIcon icon={faArrowRightLong} /></Link>
+                <Link to="/maruacstore/all-brands" className='blue-link'>All Brands <FontAwesomeIcon icon={faArrowRightLong} /></Link>
               </div>
 
               <div className='categories-list mb-3 mt-2'>

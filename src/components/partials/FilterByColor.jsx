@@ -8,7 +8,7 @@ const FilterByColor = () => {
                     Color Name
                 </button>
             </h2>
-            <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample2">
+            <div id="collapseNine" class="accordion-collapse collapse" aria-labelledby="headingNine" data-bs-parent="#accordionExample2">
                 <div class="accordion-body">
                     <div className='mb-2'>
                         <input type="checkbox" id="acolor" />
