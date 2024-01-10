@@ -11,7 +11,7 @@ const BestOfferProductCard = () => {
             {
                 bestofferproducts.map((item, i) => {
                     return (
-                        <div className="col-lg-4 p-0" key={item.id}>
+                        <div className="col-lg-4  mb-2 p-0" key={item.id}>
                             <div className="best-offer-product-card">
                                 <div className="row">
                                     <div className="col-lg-5">

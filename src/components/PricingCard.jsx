@@ -8,7 +8,7 @@ const PricingCard = () => {
             {
                 pricingList.map((item, i) => {
                     return (
-                        <div className="col-lg-3" key={i}>
+                        <div className="col-lg-3  mb-2" key={i}>
                             <div className="pricing-card">
                                 <h3 className='title'>{item.title}</h3>
                                 <p className='type'>{item.price_type}</p>

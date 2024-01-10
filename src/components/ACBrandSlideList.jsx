@@ -8,7 +8,7 @@ const ACBrandSlideList = () => {
             {
                 acBrand.map((v, i) => {
                     return (
-                        <div className="col-lg-2" key={i}>
+                        <div className="col-lg-2 mb-2" key={i}>
                             <div className='page-ac-category-ac-slider'>
                                 <Link to={v.slug}>
                                     <img src={v.img} alt={v.slug} />

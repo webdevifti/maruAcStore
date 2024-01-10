@@ -10,7 +10,7 @@ const BlogCard = () => {
             {
                 blogList.map((item, i) => {
                     return (
-                        <div className="col-lg-3" key={i}>
+                        <div className="col-lg-3  mb-2" key={i}>
                             <div className="blog-card">
                                 <Link to="">
                                     <img src={item.img} alt={item.title} />

@@ -17,7 +17,7 @@ const HomeTopBrand = () => {
 
                         clientInfo.map((item, i) => {
                             return (
-                                <div className='col-lg-2' key={i}>
+                                <div className='col-lg-2  mb-2' key={i}>
                                     <div className='client-img-wrapper'>
                                         <img src={item.img} alt={item.id} />
                                     </div>

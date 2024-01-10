@@ -12,7 +12,7 @@ const HomeSubcategoryBanner = () => {
                         {
                             subCategoryBannerImages.slice(0,limit).map((value, index) => {
                                 return (
-                                    <div className="col-lg-4" key={value.id}>
+                                    <div className="col-lg-4  mb-2" key={value.id}>
                                         <Link to="">
                                             <img src={value.img} alt="subcatory banner" />
                                         </Link>

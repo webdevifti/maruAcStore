@@ -40,7 +40,7 @@ const ProductCard = ({ sectionFrom }) => {
                 (sectionFrom === 'ac') ?
                     acProducts.map((item, index) => {
                         return (
-                            <div className='col-lg-2' key={index}>
+                            <div className='col-lg-2  mb-2' key={index}>
                                 <div className="best-offer-product-card">
                                     <div className="row">
                                         <div className='img-area'>
@@ -80,7 +80,7 @@ const ProductCard = ({ sectionFrom }) => {
                     :
                     acPartsProducts.map((item, index) => {
                         return (
-                            <div className='col-lg-2' key={index}>
+                            <div className='col-lg-2  mb-2' key={index}>
                                 <div className="best-offer-product-card">
                                     <div className="row">
                                         <div className='img-area'>

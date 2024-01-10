@@ -9,7 +9,7 @@ const ServicesCard = () => {
   return (
         services.slice(0,limit).map((v,i) => {
             return (
-                <div className='col-lg-3' key={i}>
+                <div className='col-lg-3  mb-2' key={i}>
                     <div className='service-card'>
                     <img src={v.img} alt="" />
                     <h5>{v.title}</h5>
